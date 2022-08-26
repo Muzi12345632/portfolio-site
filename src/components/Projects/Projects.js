@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Artificial_Intelligence"
+              title="Reinforcement learning AI"
               description="Implementation of Reinforcement Learning Algorithms. Python, OpenAI Gym, Tensorflow.."
               ghLink="https://github.com/Muzi12345632/Reinforcement_Learning_AI"
               //demoLink="https://chatify-49.web.app/"
