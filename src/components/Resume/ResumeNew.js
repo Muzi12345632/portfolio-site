@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Muzi12345632/portfolio-site/blob/master/src/Assets/Umuziwandile_Nkomo_CV11.pdf";
+  "https://github.com/Muzi12345632/portfolio-site/raw/master/src/Assets/Umuziwandile_Nkomo_CV11.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
