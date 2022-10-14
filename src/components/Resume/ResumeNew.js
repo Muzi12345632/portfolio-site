@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Umuziwandile_Nkomo_CV11.pdf";
+import pdf from "../../Assets/../Assets/CV_Muziwandile_Nkomo_other.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/Muzi12345632/portfolio-site/raw/master/src/Assets/Umuziwandile_Nkomo_CV11.pdf";
+  "https://github.com/Muzi12345632/portfolio-site/raw/master/src/Assets/CV_Muziwandile_Nkomo_other.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
